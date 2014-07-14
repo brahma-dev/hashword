@@ -12,8 +12,14 @@ Use NPM to install:
 
     var Hasher = require('hashword').hashword;
     var hashword = new Hasher();
-    var password = 'abc123';
+
+    //Generate a random string of 10 characters.
+    var password = hashword.generatePassword(10);
+    
+    //Generate hash of the password with a random key.
     var hash = hashword.hashPassword(password);
+    
+    //Verify the hash and password
     var success = hashword.checkPassword(password, hash);
 
 ## License ##
