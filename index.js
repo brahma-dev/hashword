@@ -1,1 +1,2 @@
-module.exports = require('./lib/hashword');
+var hashword = require('./lib/hashword');
+module.exports = new hashword();

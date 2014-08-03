@@ -10,8 +10,7 @@ Use NPM to install:
 
 ## Usage ##
 
-    var Hasher = require('hashword').hashword;
-    var hashword = new Hasher();
+    var hashword = require('hashword');
 
     //Generate a random string of 10 characters.
     var password = hashword.generatePassword(10);

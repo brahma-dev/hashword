@@ -1,11 +1,11 @@
 {
 	"name": "hashword",
 	"description": "A pure JavaScript password hashing framework.",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"author": "afzaalace",
 	"contributors": [],
 	"dependencies": {},
-	"keywords": ["auth", "password", "hashing"],
+	"keywords": ["auth", "password", "hashing", "crypto", "bcrypt"],
 	"directories": {
 		"lib": "./lib"
 	},
