@@ -1,4 +1,4 @@
-# Node hashword #
+# Node [hashword](https://www.npmjs.org/package/hashword) #
 
 A pure JavaScript password hashing framework.
 
