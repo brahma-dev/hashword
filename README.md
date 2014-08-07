@@ -12,6 +12,9 @@ Use NPM to install:
 
     var hashword = require('hashword');
 
+    //Change hash iteration count if needed. Min:8. Max:31. Defaults to 8. 
+    hashword.init(12);
+    
     //Generate a random string of 10 characters.
     var password = hashword.generatePassword(10);
     
