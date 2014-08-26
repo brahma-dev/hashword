@@ -2,6 +2,8 @@
 
 A pure JavaScript password hashing framework.
 
+[![NPM](https://nodei.co/npm/hashword.png?downloadRank=true&downloads=true)](https://nodei.co/npm/hashword.png?downloadRank=true&downloads=true)
+
 ## Installation ##
 
 Use NPM to install:
