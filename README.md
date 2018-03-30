@@ -1,5 +1,7 @@
 # Node [hashword](https://www.npmjs.org/package/hashword) #
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/brahma-dev/hashword.svg)](https://greenkeeper.io/)
+
 A pure JavaScript password hashing framework.
 
 [![NPM](https://nodei.co/npm/hashword.png?downloadRank=true&downloads=true)](https://nodei.co/npm/hashword.png?downloadRank=true&downloads=true)
