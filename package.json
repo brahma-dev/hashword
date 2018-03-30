@@ -25,6 +25,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "bcrypt": "^0.8.0"
+    "bcrypt": "^1.0.3"
   }
 }
