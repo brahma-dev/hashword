@@ -32,7 +32,7 @@ Uses code from the [jsBCrypt](http://code.google.com/p/javascript-bcrypt/) proje
 
 (The MIT License)
 
-Copyright (c) 2014 Afzaalace;
+Copyright (c) 2014 Brahma Dev;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
