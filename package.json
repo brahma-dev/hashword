@@ -1,30 +1,41 @@
 {
-  "name": "hashword",
-  "description": "A pure JavaScript password hashing framework.",
-  "version": "0.1.6",
-  "author": "afzaalace",
-  "contributors": [],
-  "dependencies": {},
-  "keywords": [
-    "auth",
-    "password",
-    "hashing",
-    "crypto",
-    "bcrypt"
-  ],
-  "directories": {
-    "lib": "./lib"
-  },
-  "main": "index",
-  "engines": {
-    "node": "*"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/afzaalace/hashword.git"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "bcrypt": "^0.8.0"
-  }
+	"name": "hashword",
+	"description": "A pure JavaScript password hashing framework.",
+	"version": "1.0.0",
+	"author": "brahma-dev",
+	"contributors": [],
+	"dependencies": {
+		"bcrypt": "^5.0.0"
+	},
+	"scripts": {
+		"start": "npm run build",
+		"build": "npm run clean && npm run lint && npm run compile",
+		"clean": "rimraf dist/",
+		"compile": "tsc",
+		"lint": "eslint . --ext .ts --fix"
+	},
+	"keywords": [
+		"auth",
+		"password",
+		"hashing",
+		"crypto",
+		"bcrypt"
+	],
+	"main": "dist/index",
+	"engines": {
+		"node": ">= 10.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/brahma-dev/hashword.git"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@types/bcrypt": "^3.0.0",
+		"@typescript-eslint/eslint-plugin": "^3.6.1",
+		"@typescript-eslint/parser": "^3.6.1",
+		"eslint": "^7.4.0",
+		"rimraf": "^3.0.2",
+		"typescript": "^3.9.7"
+	}
 }
